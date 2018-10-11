@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "326521784200",
+    "firebase_url": "https://lets-go-c8799.firebaseio.com",
+    "project_id": "lets-go-c8799",
+    "storage_bucket": "lets-go-c8799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326521784200:android:80d6173429611cef",
+        "android_client_info": {
+          "package_name": "com.example.asus.letsgotourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326521784200-n5nlpqnqipaucum8v3khk4h6lmsd9g6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.letsgotourism",
+            "certificate_hash": "d46cc16afcb06b3ed4bc7e0064957026a200d241"
+          }
+        },
+        {
+          "client_id": "326521784200-v4mhfm0f0i8huf9t8806q980l1va2p6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBLrL6p3yYYlVKbheaydLtxN2ztoDv0d0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326521784200-v4mhfm0f0i8huf9t8806q980l1va2p6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
