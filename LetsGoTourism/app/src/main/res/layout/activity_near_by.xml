@@ -6,28 +6,61 @@
 
     <Button
         android:id="@+id/coffee_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/gas_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
-        android:text="police stations" />
+        android:layout_marginBottom="-147dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="4"
+        android:text="police stations"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/gas_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="124dp"
-        android:text="gas" />
+        android:layout_marginTop="238dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="4"
+        android:text="gas"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/hospital_button"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="4"
+        android:text="hospital"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/location_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="219dp"
-        android:text="hospital" />
+        android:layout_marginBottom="19dp"
+        android:background="#FC6600"
+        android:textColor="#FFFFFF"
+        android:text="location" />
+
 </RelativeLayout>

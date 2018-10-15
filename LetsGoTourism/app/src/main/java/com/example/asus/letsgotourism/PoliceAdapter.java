@@ -32,9 +32,9 @@ public class PoliceAdapter extends RecyclerView.Adapter<PoliceAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position){
         PoliceItem policeItem = policeItemList.get(position);
-        holder.divistionTextView.setText(policeItem.getDivision());
-        holder.districtTextView.setText(policeItem.getRegion());
-        holder.thanaTextView.setText(policeItem.getName());
+        holder.divistionTextView.setText(policeItem.getName());
+        holder.districtTextView.setText(policeItem.getRegion() + ", "+  policeItem.getDivision());
+        holder.thanaTextView.setText("");
         holder.phoneTextView.setText(policeItem.getPhoneNumber());
     }
 
